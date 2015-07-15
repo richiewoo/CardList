@@ -5,3 +5,5 @@ pod "AFNetworking", "~> 2.0"
 
 platform :ios, '6.1'
 pod 'SDWebImage', '~>3.7'
+
+pod 'MGImageUtilities', '~> 0.0.1'

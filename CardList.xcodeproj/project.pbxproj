@@ -13,8 +13,6 @@
 		6B95A4CE1B4DF61700A92C3B /* MusicWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95A4CB1B4DF61700A92C3B /* MusicWebviewController.m */; };
 		6B95A4D11B4DF62300A92C3B /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95A4D01B4DF62300A92C3B /* CardCell.m */; };
 		6B95A4D81B4DF63500A92C3B /* UIImage+AverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95A4D31B4DF63500A92C3B /* UIImage+AverageColor.m */; };
-		6B95A4D91B4DF63500A92C3B /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95A4D51B4DF63500A92C3B /* UIImage+ProportionalFill.m */; };
-		6B95A4DA1B4DF63500A92C3B /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95A4D71B4DF63500A92C3B /* UIImage+Tint.m */; };
 		6BDF98091B4E090600D6097B /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF98081B4E090600D6097B /* PlaceCell.m */; };
 		6BDF980C1B4E093400D6097B /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF980B1B4E093400D6097B /* MovieCell.m */; };
 		6BDF980F1B4E095000D6097B /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF980E1B4E095000D6097B /* MusicCell.m */; };
@@ -44,10 +42,6 @@
 		6B95A4D01B4DF62300A92C3B /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardCell.m; path = UI/CardCell.m; sourceTree = "<group>"; };
 		6B95A4D21B4DF63500A92C3B /* UIImage+AverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+AverageColor.h"; path = "ImageUtilities/UIImage+AverageColor.h"; sourceTree = "<group>"; };
 		6B95A4D31B4DF63500A92C3B /* UIImage+AverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AverageColor.m"; path = "ImageUtilities/UIImage+AverageColor.m"; sourceTree = "<group>"; };
-		6B95A4D41B4DF63500A92C3B /* UIImage+ProportionalFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ProportionalFill.h"; path = "ImageUtilities/UIImage+ProportionalFill.h"; sourceTree = "<group>"; };
-		6B95A4D51B4DF63500A92C3B /* UIImage+ProportionalFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ProportionalFill.m"; path = "ImageUtilities/UIImage+ProportionalFill.m"; sourceTree = "<group>"; };
-		6B95A4D61B4DF63500A92C3B /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Tint.h"; path = "ImageUtilities/UIImage+Tint.h"; sourceTree = "<group>"; };
-		6B95A4D71B4DF63500A92C3B /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Tint.m"; path = "ImageUtilities/UIImage+Tint.m"; sourceTree = "<group>"; };
 		6BDF98071B4E090600D6097B /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceCell.h; path = UI/PlaceCell.h; sourceTree = "<group>"; };
 		6BDF98081B4E090600D6097B /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceCell.m; path = UI/PlaceCell.m; sourceTree = "<group>"; };
 		6BDF980A1B4E093400D6097B /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieCell.h; path = UI/MovieCell.h; sourceTree = "<group>"; };
@@ -200,10 +194,6 @@
 			children = (
 				6B95A4D21B4DF63500A92C3B /* UIImage+AverageColor.h */,
 				6B95A4D31B4DF63500A92C3B /* UIImage+AverageColor.m */,
-				6B95A4D41B4DF63500A92C3B /* UIImage+ProportionalFill.h */,
-				6B95A4D51B4DF63500A92C3B /* UIImage+ProportionalFill.m */,
-				6B95A4D61B4DF63500A92C3B /* UIImage+Tint.h */,
-				6B95A4D71B4DF63500A92C3B /* UIImage+Tint.m */,
 			);
 			name = ImageUtilities;
 			sourceTree = "<group>";
@@ -335,10 +325,8 @@
 				6BDF980C1B4E093400D6097B /* MovieCell.m in Sources */,
 				6BDF98181B4E0A5100D6097B /* Music.m in Sources */,
 				6BDF98091B4E090600D6097B /* PlaceCell.m in Sources */,
-				6B95A4DA1B4DF63500A92C3B /* UIImage+Tint.m in Sources */,
 				6BDF980F1B4E095000D6097B /* MusicCell.m in Sources */,
 				6B95A4CE1B4DF61700A92C3B /* MusicWebviewController.m in Sources */,
-				6B95A4D91B4DF63500A92C3B /* UIImage+ProportionalFill.m in Sources */,
 				6BEDC5231B4CA3690021BF1A /* AppDelegate.m in Sources */,
 				6BDF98121B4E0A2200D6097B /* Place.m in Sources */,
 				6B95A4C51B4DF60700A92C3B /* CardData.m in Sources */,
